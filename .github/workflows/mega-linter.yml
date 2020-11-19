@@ -37,8 +37,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # DISABLE: COPYPASTE,SPELL # Uncomment to disable copy-paste and spell checks
           # ADD YOUR CUSTOM ENV VARIABLES HERE
-          FILTER_REGEX_EXCLUDE: "(/test/)"
-          DISABLE_LINTERS: JAVASCRIPT_STANDARD
 
       # Upload Mega-Linter artifacts
       - name: Archive production artifacts
